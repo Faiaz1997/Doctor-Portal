@@ -1,0 +1,209 @@
+/* Reset some default styles */
+body {
+  font-family: "Rajdhani";
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #4caf50;
+  z-index: 1000;
+}
+
+.navbar {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  background-color: #008cba;
+}
+
+/* Container Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 60px; 
+  padding-bottom: 60px; 
+}
+
+/* Heading Styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Counter Card Styles */
+.counter-card {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Action Buttons Styles */
+.action-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.button {
+  display: inline-block;
+  margin: 5px;
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  padding: 10px 20px; 
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005e7e;
+}
+
+/* Delete Button Styles */
+.delete-button {
+  background-color: #ff5858; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px; 
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px; 
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #ff3333; 
+}
+
+/* Update Profile Styles */
+.update-profile {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+  margin: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Button Styles */
+button {
+  background-color: #008cba;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005e7e;
+}
+
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Select Box Styles */
+select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+/* Footer Styles */
+footer.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1000;
+}
